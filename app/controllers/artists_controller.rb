@@ -1,4 +1,5 @@
 class ArtistsController < ApplicationController
+  # update artists index view to use teh new nested resource route URL helper to link to the index of all songs by that artist
   def index
     @artists = Artist.all
   end
